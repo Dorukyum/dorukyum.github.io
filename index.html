@@ -6,35 +6,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dorukyum</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/53639936">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="pt-40 p-0 bg-gray-900 text-white">
-    <div class="text-center select-none -mt-16">
-        <p class="text-2xl">Hello there, I'm</p>
-        <div class="inline-flex items-center">
-            <img class="w-20 h-20 rounded-full" src="https://avatars.githubusercontent.com/u/53639936">
-            <a class="text-6xl ml-2">Dorukyum</a>
+<body>
+    <header>
+        Hello there, I'm
+        <br>
+        <div class="center">
+            <img src="https://avatars.githubusercontent.com/u/53639936">
+            <p>Dorukyum</p>
         </div>
+    </header>
 
-        <div>
-            <p class="text-xl center py-2 pt-40">and I'm a full-stack programmer</p>
-            <a href="https://github.com/Dorukyum">
-                <button class="hover:bg-indigo-600 font-bold py-2 px-4 rounded inline-flex items-center border-2 border-indigo-600 mr-2">
-                    <svg width="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16 0 0 7.16 0 16C0 23.08 4.58 29.06 10.94 31.18C11.74 31.32 12.04 30.84 12.04 30.42C12.04 30.04 12.02 28.78 12.02 27.44C8 28.18 6.96 26.46 6.64 25.56C6.46 25.1 5.68 23.68 5 23.3C4.44 23 3.64 22.26 4.98 22.24C6.24 22.22 7.14 23.4 7.44 23.88C8.88 26.3 11.18 25.62 12.1 25.2C12.24 24.16 12.66 23.46 13.12 23.06C9.56 22.66 5.84 21.28 5.84 15.16C5.84 13.42 6.46 11.98 7.48 10.86C7.32 10.46 6.76 8.82 7.64 6.62C7.64 6.62 8.98 6.2 12.04 8.26C13.32 7.9 14.68 7.72 16.04 7.72C17.4 7.72 18.76 7.9 20.04 8.26C23.1 6.18 24.44 6.62 24.44 6.62C25.32 8.82 24.76 10.46 24.6 10.86C25.62 11.98 26.24 13.4 26.24 15.16C26.24 21.3 22.5 22.66 18.94 23.06C19.52 23.56 20.02 24.52 20.02 26.02C20.02 28.16 20 29.88 20 30.42C20 30.84 20.3 31.34 21.1 31.18C27.42 29.06 32 23.06 32 16C32 7.16 24.84 0 16 0V0Z" fill="white"/>
-                    </svg>
-                    <span class="pl-2">My GitHub</span>
-                </button>
-            </a>
-            <a href="https://discord.gg/8JsMVhBP4W">
-                <button class="hover:bg-indigo-600 font-bold py-2 px-4 rounded inline-flex items-center border-2 border-indigo-600">
-                    <img width="41" src="img/discord.svg">
-                    <span class="pl-2">My Discord</span>
-                </button>
-            </a>
+    <div class="section">
+        <a class="link center" href="https://github.com/Dorukyum">
+            <img src="img/github.svg">
+            <span>My GitHub</span>
+        </a>
+        <a class="link center" href="https://discord.gg/8JsMVhBP4W">
+            <img src="img/discord.svg">
+            <span>My Discord</span>
+        </a>
+    </div>
+
+    <div class="section">
+        <h1>Projects</h1>
+        <div class="grid">
+            <div class="item">
+                <img class="item-icon" src="img/pycord.png">
+                <h3>Pycord</h3>
+                <p>A modern and feature-rich API wrapper for Discord</p>
+                <a class="link center" href="https://github.com/Pycord-Development/pycord">
+                    <img src="img/github.svg">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+            <div class="item">
+                <img class="item-icon rounded" src="img/pycord_manager.png">
+                <h3>Pycord-Manager</h3>
+                <p>The ultimate open source Discord server management bot</p>
+                <a class="link center"
+                    href="https://discord.com/oauth2/authorize?scope=applications.commands%20bot&permissions=8&client_id=882631512829329448">
+                    <img src="img/discord.svg">
+                    <span>Add to Server</span>
+                </a>
+                <a class="link center" href="https://github.com/Dorukyum/Pycord-Manager">
+                    <img src="img/github.svg">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+            <div class="item">
+                <h3>ormic</h3>
+                <p>A simple, fast and asynchronous Python ORM for SQLite databases</p>
+                <a class="link center" href="https://pypi.org/project/ormic/">
+                    <img src="img/external.svg">
+                    <span>View on PyPI</span>
+                </a>
+                <a class="link center" href="https://github.com/Dorukyum/ormic">
+                    <img src="img/github.svg">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+            <div class="item">
+                <img class="item-icon" src="https://github.com/Dorukyum/internet-search/blob/main/icon.png?raw=true">
+                <h3>Internet Search</h3>
+                <p>A VSCode extension to search stuff easily while writing code</p>
+                <a class="link center" href="https://marketplace.visualstudio.com/items?itemName=dorukyum.internet-search">
+                    <img src="img/external.svg">
+                    <span>View Marketplace Page</span>
+                </a>
+                <a class="link center" href="https://github.com/Dorukyum/Pycord-Manager">
+                    <img src="img/github.svg">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+            <div class="item">
+                <h3>calcium</h3>
+                <p>A calculator API built to be fast and feature-rich</p>
+                <a class="link center" href="https://github.com/Dorukyum/calcium">
+                    <img src="img/github.svg">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+            <div class="item">
+                <h3>Speedy Keys</h3>
+                <p>A typing speed test but with one key at a time</p>
+                <a class="link center" href="https://dorukyum.github.io/speedy-keys">
+                    <img src="img/external.svg">
+                    <span>Try it out</span>
+                </a>
+                <a class="link center" href="https://github.com/Dorukyum/Pycord-Manager">
+                    <img src="img/github.svg">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+            <div class="item">
+                <h3>pons.py</h3>
+                <p>An API wrapper for the PONS dictionary written in Python</p>
+                <a class="link center" href="https://pypi.org/project/pons.py/">
+                    <img src="img/external.svg">
+                    <span>View on PyPI</span>
+                </a>
+                <a class="link center" href="https://github.com/Dorukyum/pons.py">
+                    <img src="img/github.svg">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+            <div class="item">
+                <h3>koronavirus</h3>
+                <p>The only Turkish API wrapper to access COVID-19 statistics</p>
+                <a class="link center" href="https://pypi.org/project/koronavirus/">
+                    <img src="img/external.svg">
+                    <span>View on PyPI</span>
+                </a>
+                <a class="link center" href="https://github.com/Dorukyum/koronavirus">
+                    <img src="img/github.svg">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
         </div>
     </div>
 </body>
