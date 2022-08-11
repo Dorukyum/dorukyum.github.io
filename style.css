@@ -28,11 +28,15 @@ header {
 header img {
     border-radius: 50%;
     width: 80px;
-    padding-right: 4px;
+    margin-right: 12px;
+}
+
+header h1 {
+    font-size: 3.75rem;
 }
 
 header p {
-    font-size: 3.75rem;
+    padding-top: 3rem;
 }
 
 .rounded {
@@ -40,7 +44,7 @@ header p {
 }
 
 .section {
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 .section h1 {
