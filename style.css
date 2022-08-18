@@ -131,12 +131,12 @@ header p {
     margin: 15px;
 }
 
-.item h3 {
+.item h2 {
     font-size: large;
     font-weight: bold;
 }
 
-.item h3:first-child {
+.item h2:first-child {
     margin-top: 20px;
 }
 
