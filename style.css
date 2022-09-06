@@ -81,6 +81,12 @@ header p {
     }
 }
 
+@media (min-width: 2048px) {
+    .grid {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+
 .center {
     display: inline-flex;
     align-items: center;
