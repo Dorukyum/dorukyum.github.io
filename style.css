@@ -149,3 +149,11 @@ header p {
 .item p {
     padding: 10px;
 }
+
+.item .badge {
+    display: inline-block;
+    background-color: var(--primary);
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 3px 7px;
+}
