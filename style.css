@@ -5,6 +5,14 @@ html {
     line-height: 1.5;
 }
 
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    font-weight: inherit;
+}
+
 body {
     padding-top: 5rem;
     color: white;
@@ -93,6 +101,7 @@ header p {
 }
 
 .link {
+    text-decoration: none;
     background-color: transparent;
     cursor: pointer;
     padding: 0.5rem 1rem 0.5rem;
@@ -106,6 +115,7 @@ header p {
 }
 
 .link span {
+    color: white;
     font-weight: bold;
     padding-left: 0.5rem;
 }
@@ -124,7 +134,7 @@ header p {
 
 .item .item-icon {
     display: inline-block;
-    height: 100px;
+    height: 80px;
     padding: 10px;
     margin-top: 15px;
 }
